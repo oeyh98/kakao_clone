@@ -1,0 +1,36 @@
+.recommended-friends {
+  margin: 25px 0px;
+  padding: 25px 0px;
+  border-top: var(--main--border);
+  border-bottom: var(--main--border);
+}
+
+.recommended-friends__title {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  /*회색 저장하기*/
+}
+
+.recommended-friends span {
+  margin: 100px 0px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.cog {
+  position: relative;
+}
+.cog__dot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  bottom: 25px;
+}

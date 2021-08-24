@@ -1,0 +1,15 @@
+.badge {
+  background-color: tomato;
+  /*display: block;
+span은 width height 적용 안되므로 disolay : block처리 해줘야함*/
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  /*완벽한 원으로 만들고싶다면 width의 절반*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  /*absolute는 가장 가까운 relative를 가진 부모기준으로 움직임 *없을경우 body*/
+}

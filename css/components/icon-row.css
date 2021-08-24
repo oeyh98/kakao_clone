@@ -1,0 +1,20 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-row__icon {
+  display: flex;
+  /*row가 행 column이 열*/
+  flex-direction: column;
+  /*Main Axis : 세로축 Cross Axis : 가로축*/
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 18px;
+}
